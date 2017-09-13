@@ -1,0 +1,11 @@
+{
+  "name": "picture-2-text",
+  "version": "1.0.0",
+  "description": "A lambda application for extracting text from images",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Charles Harris Horn",
+  "license": "MIT"
+}
