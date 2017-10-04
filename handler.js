@@ -1,6 +1,8 @@
 'use strict';
+import Tesseract from 'tesseract.js'
 
-module.exports.hello = (event, context, callback) => {
+module.exports.ocr = (event, context, callback) => {
+  console.log('event:*************', event);
   const response = {
     statusCode: 200,
     body: JSON.stringify({
